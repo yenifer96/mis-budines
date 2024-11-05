@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    width: 960px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff ;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.logo img {
+    width: 150px;
+    height: 100px; ;
+}
+.botonera {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botonera ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.botonera ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.fondo {
+    height: 550px;
+    position: relative;
+      }
+    
+      .fondo img {
+        width: 960px;
+        height: 580px;
+      }
+    
+    .banner {
+    width: 960px;
+    height: calc(100vh 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .banner_text {
+      /*width: 100%;*/
+      /*background-color: rgb(0, 110, 110);*/
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      text-align: center;
+    }
+
+.banner_text h1{
+    color: #1f1d1d;
+      font-style:unset;
+      display: flex;
+      margin-top: 245px;
+      margin-left: 250px;
+      margin-right: 20px;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    font-size: 50px;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    }
+    .banner_text p{
+      color: #302f2fb4;
+    font-size: 18px;
+    justify-content: center;
+    margin: 0 0 0 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 20px;
+    }
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+.producto h3 {
+font-family: "Alfa Slab One", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+}
+.producto {
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color:#ffffff86;
+}
+.producto img {
+    width: 200px;
+    height: 200px;
+}
+.sobre-nosotros {
+    background-color: #ee9a9a81 ; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 960px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.info {
+    flex: 1;
+}
+.info h1 {
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+
+}
+,info p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+.contacto {
+    padding: 20px;
+    width: 960px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+    
+    
+    
+}
+.forma {
+
+    --s: 50px; /* size of the corners */
+  border: 8px solid #e6a3a8ce; 
+  padding: 10px;
+  height: 350px;
+  width: 960px;
+  mask: 
+    conic-gradient(#000 0 0) content-box,
+    conic-gradient(at var(--s) var(--s),#0000 75%,#000 0) 
+    0 0/calc(100% - var(--s)) calc(100% - var(--s));
+    margin-top: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ form textarea, form button {
+    padding: 10px;
+    border: 1px solid #c5acac;
+    
+}
+form input {
+    color: #f8f9fa75;
+    border: 1px solid #c5acac;
+    height: 30px;
+}
+
+
+
+.redes-sociales {
+    padding: 20px;
+    width: 960px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
